@@ -1,0 +1,59 @@
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f3f4f6; 
+    padding: 1rem;
+}
+
+.content-box {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    max-width: 32rem;
+    width: 100%;
+}
+.main-heading {
+    font-size: 2.25rem; 
+    font-weight: 800; 
+    color: #1f2937; 
+    margin-bottom: 1rem;
+}
+.intro-paragraph {
+    font-size: 1.125rem; 
+    color: #4b5563;
+    margin-bottom: 1.5rem;
+}
+.explore-button {
+    padding: 0.75rem 1.5rem;
+    background-color: #2563eb;
+    color: #fff;
+    font-weight: 600; 
+    border-radius: 9999px; 
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+.explore-button:hover {
+    background-color: #1d4ed8; 
+}
+.explore-button:focus {
+    outline: none;
+}
+.message-container {
+    margin-top: 1.5rem;
+}
+.welcome-message {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.welcome-message.success {
+    color: #16a34a; 
+}
+.welcome-message.error {
+    color: #dc2626;
+}
